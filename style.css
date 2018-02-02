@@ -1,0 +1,15 @@
+.navbar {
+  background-color: blue; 
+}
+
+h1 {
+  color: blue;
+}
+
+.col {
+  border: 2px dotted red;
+}
+
+.btn {
+  background-color: rgba(255,0,0,0.5);
+}
