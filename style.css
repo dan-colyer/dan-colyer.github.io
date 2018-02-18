@@ -1,15 +1,97 @@
-.navbar {
-  background-color: blue; 
+body {
+  font-family: 'Sorts Mill Goudy', serif;
+  height: 90%;
 }
 
-h1 {
-  color: blue;
+/* NAVIGATION */
+.nav {
+  font-size: 16pt;
+  color: #484848;
+  width: 100%;
+}
+
+.nav-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #E1E1E1;
+}
+.nav-li {
+  display: inline;
+}
+
+li a {
+  text-align: center;
+  padding: 5px 16px;
+  text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* CONTAINER */
+.container {
+  width: 100%;
+  border: 2px dotted green;
+  display: inline-flex;
+  flex-wrap: wrap
+}
+
+ul {
+  list-style-type: none;
 }
 
 .col {
   border: 2px dotted red;
 }
 
-.btn {
-  background-color: rgba(255,0,0,0.5);
+/* COL 1 */
+.col1 {
+  width: 9%;
+}
+
+/* COL 2 */
+.col2 {
+  width: 80%;
+  text-align: center;
+  padding: 25px 5px;
+  font-size: 40pt; 
+}
+
+#cashboard {
+  font-family: Codystar;
+  font-size: 40pt;
+  font-weight: bold;
+  color: #484848;
+}
+
+#face-recognition {
+  font-size: 40pt;
+}
+
+.col2 div {
+  font-size: 20px;
+  margin: 50px 0px;
+}
+
+#col2-ul li {
+  display: inline;
+}
+
+/* COL 3 */
+.col3 {
+  width: 9%;
+}
+
+/* Bottom */
+.bottom {
+  width: 100%;
 }
