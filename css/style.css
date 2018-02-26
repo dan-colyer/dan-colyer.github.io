@@ -3,6 +3,13 @@
     max-width: 500px;
 }
 
+.responsive {
+    padding: 5% 10%;
+}
+
+.gallery {
+    text-align: center;
+}
 
 @media only screen and (max-width: 700px){
     .responsive {
